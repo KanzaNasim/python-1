@@ -10,7 +10,6 @@ Welcome to the Python-1 repository! This repository contains a collection of Pyt
 - [Usage](#usage)
 - [Programs](#programs)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -69,6 +68,4 @@ Contributions are welcome! If you have a program you'd like to add or improvemen
 
 5.Create a pull request.
 
-## License
 
-This repository is licensed under the MIT License. See the LICENSE file for more details.
