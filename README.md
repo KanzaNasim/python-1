@@ -43,11 +43,15 @@ Replace <filename> with the name of the Python file you want to run.
 ## Programs
 
 1. Count the name characters
+
 Filename: count_the_characters.py
+
 Description: a simple function that count the characters of the given name.
 
-2. To-Do List Application
+3. To-Do List Application
+
 Filename: creating_a_to-do_list.py
+
 Description: A simple to-do list application that allows you to add, view, and delete tasks.
 
 
