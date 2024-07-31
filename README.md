@@ -31,13 +31,14 @@ To run the programs in this repository, you will need to have Python installed o
     ```sh
     cd python-1
     ```
-
+    
 ## Usage
 
 To run any of the Python programs, use the following command:
 ```sh
 python <filename>.py
 Replace <filename> with the name of the Python file you want to run.
+ ```
 
 ## Programs
 
