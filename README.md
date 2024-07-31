@@ -60,12 +60,18 @@ Contributions are welcome! If you have a program you'd like to add or improvemen
 
 1.Fork the repository.
 
-2.Create a new branch: git checkout -b my-feature-branch
-
-3.Make your changes and commit them: git commit -m 'Add new feature'
-
-4.Push to the branch: git push origin my-feature-branch
-
+2.Create a new branch: 
+```sh
+git checkout -b my-feature-branch
+ ```
+3.Make your changes and commit them: 
+```sh
+git commit -m 'Add new feature'
+ ```
+4.Push to the branch:
+```sh
+git push origin my-feature-branch
+ ```
 5.Create a pull request.
 
 
