@@ -38,3 +38,29 @@ To run any of the Python programs, use the following command:
 ```sh
 python <filename>.py
 Replace <filename> with the name of the Python file you want to run.
+
+## Programs
+
+1. Count the name characters
+Filename: count_the_characters.py
+Description: a simple function that count the characters of the given name.
+
+2. To-Do List Application
+Filename: creating_a_to-do_list.py
+Description: A simple to-do list application that allows you to add, view, and delete tasks.
+
+
+## Contributing
+
+Contributions are welcome! If you have a program you'd like to add or improvements to existing ones, feel free to fork the repository and create a pull request.
+
+1.Fork the repository.
+2.Create a new branch: git checkout -b my-feature-branch
+git checkout -b my-feature-branch
+3.Make your changes and commit them: git commit -m 'Add new feature'
+4.Push to the branch: git push origin my-feature-branch
+5.Create a pull request.
+
+## License
+
+This repository is licensed under the MIT License. See the LICENSE file for more details.
