@@ -17,3 +17,34 @@ def calorie_calculator(weight, height):
 
 # Calling the function
 calorie_calculator(weight, height)
+
+
+print("welcome to burger house!")
+size= input("what size burger do you want? S,M,L:")
+pepperoni= input("do you want pepperoni in your burger? Y or N")
+extra_cheese= input("do you want extra cheese? Y or N")
+
+
+# Another example: Defining the function burger bill
+def burger_bill(size, pepperoni, extra_cheese):
+    if size == "L":
+        result = 25
+    elif size == "M":
+        result = 20
+    elif size == "S":
+        result = 15
+    else:
+        print("you entered the wrong input")
+
+    if pepperoni == "Y" and size == "L" or size == "M":
+        result += 3
+    elif pepperoni == "Y" and size == "S":
+        result += 2
+    if extra_cheese =="Y":
+        result += 1
+
+    return result 
+    
+
+bill = burger_bill (size,pepperoni, extra_cheese)
+print(f"you final bill is: Rs{bill}")
