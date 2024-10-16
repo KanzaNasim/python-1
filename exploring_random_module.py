@@ -28,3 +28,12 @@ def get_random_number():
 random_number = get_random_number()
 
 print(Female[random_number])
+
+
+import random
+
+# playing wih List:
+Female = ["Ayla", "Emaan", "Hira", "Mahira", "Zoya"]
+
+# another way to do the above :
+print(random.choice(Female))
