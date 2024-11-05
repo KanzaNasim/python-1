@@ -2,11 +2,13 @@
 import random
 from hangman_wordlist import word_list
 from hangman_hints import hint
-from hangman_stages import stages
+from hangman_stages import stages,title
+
+
+print(title[0])
 
 word = random.choice(word_list).lower()
 guess_list = ["_"] * len(word)
-
 
 wrong_guesses = 6
 
