@@ -1,67 +1,13 @@
 # a take on the hangman game:)
 import random
-from hangman_ewordlist import word_list
+from hangman_wordlist import word_list
+from hangman_hints import hint
+from hangman_stages import stages
 
 word = random.choice(word_list).lower()
 guess_list = ["_"] * len(word)
-stages = ['''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========''']
 
-hint = [
-    "It's a mammal.",
-    "It has four legs.",
-    "It is a terrestrial animal.",
-    "It can be found in the wild.",
-    "It is known for its unique features."
-]
+
 wrong_guesses = 0
 
 while True:
