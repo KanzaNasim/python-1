@@ -6,6 +6,9 @@ from hangman_stages import stages,title
 
 
 print(title[0])
+print("*************************")
+input("Press enter to continue...")
+print("*************************")
 
 word = random.choice(word_list).lower()
 guess_list = ["_"] * len(word)
@@ -31,7 +34,9 @@ while True:
         wrong_guesses -= 1
 
         if wrong_guesses == 0:
+            print("*************************")
             print("You have 1 life remaining. I'll give you one more chance!")
+            print("*************************")
             guess = input(f"Guess the letters (there are {len(word)} letters, write them one at a time): {''.join(guess_list)} ").lower()
             if guess in word:
                 print("Nice guess!")
