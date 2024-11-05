@@ -1,13 +1,7 @@
 # a take on the hangman game:)
 import random
+from hangman_ewordlist import word_list
 
-word_list = [
-    "Lion", "Elephant", "Tiger", "Giraffe", "Zebra", 
-    "Kangaroo", "Panda", "Koala", "Wolf", "Fox", 
-    "Bear", "Deer", "Rhinoceros", "Hippopotamus", 
-    "Leopard", "Cheetah", "Bison", "Moose", "Hyena", 
-    "Antelope"
-]
 word = random.choice(word_list).lower()
 guess_list = ["_"] * len(word)
 stages = ['''
