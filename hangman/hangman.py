@@ -1,7 +1,6 @@
 # a take on the hangman game:)
 import random
-from hangman_wordlist import word_list
-from hangman_hints import hint
+from hangman_hints import hint,word_list
 from hangman_stages import stages,title
 
 
