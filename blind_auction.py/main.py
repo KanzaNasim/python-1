@@ -1,3 +1,4 @@
+from logo import logo
 def record(name, amount, p_record):
     p_record['p_name'].append(name)
     p_record['p_amount'].append(amount)
@@ -11,7 +12,7 @@ def blind_auction():
         name = input("Enter your name: ").lower()
         amount = int(input("Enter the amount you want to bid: "))
         record(name, amount, p_record)
-        print("\n" * 100)  # to clear the screen
+        print("\n" * 50)  # to clear the screen
     
     max_value = max(p_record['p_amount'])  # to get the highest bid
     max_index = p_record['p_amount'].index(max_value)
