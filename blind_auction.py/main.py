@@ -21,4 +21,5 @@ def blind_auction():
     print("The highest bidder is:", highest_bidder, "with a bid of Rs.", max_value)
     print("Thanks for playing")
 
+
 blind_auction()
